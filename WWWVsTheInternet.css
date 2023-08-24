@@ -1,28 +1,43 @@
-body {
-    font-family: sans-serif;
-  }
-  
-  header {
-    background-color: #f0f0f0;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 2em;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  #what-is-web {
-    background-color: #fafafa;
-  }
-  
-  #how-does-web-work {
-    background-color: #f5f5f5;
-  }
-  
-  #differences-between-web-and-internet {
-    background-color: #ececec;
-  }
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+
+main {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+
+h2 {
+  color: #333;
+}
+
+
+p {
+  color: #555;
+}
+
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
