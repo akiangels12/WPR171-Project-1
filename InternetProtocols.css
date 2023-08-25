@@ -1,5 +1,5 @@
 header {
-    background-color: cadetblue;
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -15,7 +15,7 @@ header {
   }
   
   aside {
-    background-color: cadetblue;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     padding: 10px;
     float: left;
     border: solid black;
@@ -23,7 +23,7 @@ header {
   }
   
   footer {
-    background-color: cadetblue;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     color: black;
     text-align: center;
     padding: 10px;
@@ -43,13 +43,18 @@ header {
 float: right;
   }
   .navbar{
-  background-color: cadetblue;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
   margin-top: 10px;
   border:solid black
   }
   .nav-list li a{
     font-size: larger;
     color: black;
+  }
+
+  li{
+    list-style: none;
+    color: aliceblue;
   }
   
 
