@@ -31,9 +31,11 @@ body {
 
 nav{
     background: radial-gradient(circle at -8.9% 51.2%, rgb(201, 25, 40) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
-    height: px;
+    
     align-items: center;
     border-radius: 10px;
+    height: 50px;
+    
 
     
 }
@@ -42,6 +44,9 @@ ul li{
     display: inline-block;
     padding: 5px;
     align-items: center;
+    box-shadow: 1px 2px 1px rgb(19, 30, 37);
+    border-radius: 5px;
+    margin-left: 10px;
     
     
     
