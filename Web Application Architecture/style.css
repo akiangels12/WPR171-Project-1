@@ -1,4 +1,4 @@
-/* Reset default margin and padding */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@ body{
     background:linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
 }
 
-/* Basic styling for the container */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -17,13 +17,13 @@ body{
     background:linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
 }
 
-/* Header styling */
+
 header {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Navigation styling */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -46,7 +46,7 @@ nav a:hover {
     color: #007BFF;
 }
 
-/* Card styling */
+
 .poster {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -66,7 +66,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-/* Image styling (you can customize this as needed) */
+
 .poster .image img {
     max-width: 100%;
     height: auto;
@@ -74,7 +74,7 @@ nav a:hover {
     margin: 10px auto;
 }
 
-/* Media query for responsive design */
+
 @media screen and (max-width: 768px) {
     .container {
         padding: 10px;
