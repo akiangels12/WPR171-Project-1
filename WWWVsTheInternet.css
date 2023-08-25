@@ -10,7 +10,7 @@ header {
 main {
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: #f9f9f9;
+  background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
 }
 
 
@@ -19,6 +19,13 @@ section {
   padding: 15px;
   border: 1px solid #ddd;
   background-color: #fff;
+  border-radius: 10px;
+}
+
+section:hover{
+  padding: 60px;
+  font-size: x-large;
+  
 }
 
 
@@ -40,4 +47,40 @@ a {
 
 a:hover {
   text-decoration: underline;
+  font-size: large;
+}
+
+.comparison-table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+
+.comparison-table th,
+.comparison-table td {
+  border: 2px solid #5e5959;
+  padding: 12px;
+  text-align: center;
+}
+
+.comparison-table th {
+  background-color: #f2f2f2;
+  color: #2c2a2a;
+}
+
+.comparison-table tr:nth-child(even) {
+  background-color: #b9a9a9;
+}
+
+
+h1{
+text-align: center;
+}
+
+body{
+  
 }
